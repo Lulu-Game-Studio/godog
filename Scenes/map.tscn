@@ -7,7 +7,7 @@
 
 [node name="Node2D" type="Node2D" unique_id=737151001]
 
-[node name="TextureRect" type="TextureRect" parent="." unique_id=1697836897]
+[node name="background" type="TextureRect" parent="." unique_id=1697836897]
 modulate = Color(0.34434286, 0.34434286, 0.34434286, 1)
 offset_left = 16.0
 offset_top = 33.0
