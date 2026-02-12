@@ -4,16 +4,18 @@
 [ext_resource type="SpriteFrames" uid="uid://c0gyydecnvu2b" path="res://SpriteFrames/spriteFrame.tres" id="1_v0iea"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_v0iea"]
-size = Vector2(133, 100)
+size = Vector2(46.375, 32.625)
 
 [node name="CharacterBody2D" type="CharacterBody2D" unique_id=1069223489 node_paths=PackedStringArray("animation")]
 script = ExtResource("1_cvnsp")
 animation = NodePath("AnimatedSprite2D")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=537606918]
+position = Vector2(-1, 1)
+scale = Vector2(0.28515625, 0.28564453)
 sprite_frames = ExtResource("1_v0iea")
 animation = &"idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=853220777]
-position = Vector2(1.5, 14)
+position = Vector2(-1.1875, 6.3125)
 shape = SubResource("RectangleShape2D_v0iea")
